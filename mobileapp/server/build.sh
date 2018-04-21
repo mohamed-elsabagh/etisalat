@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROJECT_HOME=$(pwd)
-PROJECT_NAME="server-node"
+PROJECT_NAME="server"
 LAUNCH_DIRECTORY="/var"
 NGINX_DIRECTORY_ENABLED="/etc/nginx/sites-enabled"
 NGINX_DIRECTORY_AVAILABLE="/etc/nginx/sites-available"
