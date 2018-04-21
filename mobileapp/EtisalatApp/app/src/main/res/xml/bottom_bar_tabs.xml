@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_create_log"
+        icon="@drawable/scan"
+        title="@string/create_log" />
+    <tab
+        id="@+id/tab_get_log"
+        icon="@drawable/schedule"
+        title="@string/log_menu" />
+    <tab
+        id="@+id/tab_about"
+        icon="@drawable/info"
+        title="@string/about_menu" />
+</tabs>

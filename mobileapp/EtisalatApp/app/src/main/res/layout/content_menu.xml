@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="@dimen/bottom_bar_height" />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_gravity="bottom"
+        app:bb_activeTabAlpha="1"
+        app:bb_activeTabColor="@color/colorAccent"
+        app:bb_badgesHideWhenActive="true"
+        app:bb_inActiveTabAlpha="0.6"
+        app:bb_inActiveTabColor="#222222"
+        app:bb_showShadow="true"
+        app:bb_tabXmlResource="@xml/bottom_bar_tabs" />
+
+</android.support.design.widget.CoordinatorLayout>
+

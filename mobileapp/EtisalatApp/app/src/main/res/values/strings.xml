@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EtisalatApp</string>
+
+    <!-- Menu -->
+    <string name="create_log">Create</string>
+    <string name="log_menu">Logs</string>
+    <string name="about_menu">About</string>
+
+    <string name="name_hint">Process Name</string>
+    <string name="status_hint">Status</string>
+
+    <string name="send_button">Send</string>
+
+    <string name="progress_dialog">Progress</string>
+    <string name="please_wait">Please wait!</string>
+</resources>

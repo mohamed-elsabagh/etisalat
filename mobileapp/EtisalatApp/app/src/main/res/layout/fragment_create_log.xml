@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/float_edit_text_margin"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/editTextProcess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/name_top_margin"
+            android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+            android:ems="10"
+            android:hint="@string/name_hint"
+            android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Switch
+        android:id="@+id/switchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_hint"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!--divider line-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="9dp"
+        android:src="@color/contentDividerLine"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="@dimen/send_button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/send_button"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
